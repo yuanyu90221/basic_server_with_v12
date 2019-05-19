@@ -1,6 +1,10 @@
 {
   "name": "basic_server_with_v12",
   "version": "1.0.0",
+  "engineStrict": true,
+  "engines": {
+    "node": "12.2.0"
+  },
   "description": "",
   "main": "./src/server.js",
   "scripts": {
@@ -12,10 +16,6 @@
   ],
   "author": "json-Liang",
   "license": "ISC",
-  "engineStrict": true,
-  "engines": {
-    "node": ">=12.2.0"
-  },
   "dependencies": {
     "console": "^0.7.2",
     "http": "0.0.0",
