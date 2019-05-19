@@ -7,7 +7,7 @@ http.createServer((req, res)=>{
   res.writeHead(200, {
     'Content-Type':'text/html'
   });
-  res.end(`Hello World! My Name is Json Liang`);
+  res.end(`<h1>Hello World! My Name is Json Liang</h1>`);
 }).listen(PORT);
 
 logger.info(`server is running on ${PORT}`);
